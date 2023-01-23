@@ -16,4 +16,4 @@
 
 SELECT year, count(*)
 FROM teams
-LIMIT 1;
+GROUP BY year;
